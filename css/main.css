@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Freckle+Face&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --second-family: "Barlow", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1050px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #F5F5F5;
+  padding-bottom: 97px;
+}
+
+.header__box {
+  padding-top: 96px;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 112%;
+  margin-top: 28px;
+  text-align: center;
+  color: #000;
+}
+
+.header__text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 200%;
+  text-align: center;
+  color: #000;
+}
+
+.header__img {
+  padding-top: 66px;
+  margin-bottom: 70px;
+}
+
+.header__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 22px;
+}
+
+.header__productBtn {
+  padding: 13px 45px 14px 45px;
+  background-color: #6f2cff;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.header__bookBtn {
+  padding: 13px 45px 14px 45px;
+  background-color: #fff;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  text-align: center;
+  color: #6f2cff;
+}
+
+.hero__block {
+  padding-top: 77px;
+  margin-bottom: 100px;
+}
+
+.hero__items {
+  border-radius: 0 0 7px 7px;
+  width: 319px;
+  height: 438px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(192, 192, 192, 0.5);
+          box-shadow: 0 2px 4px 0 rgba(192, 192, 192, 0.5);
+  background: #f5f5f5;
+  text-align: center;
+}
+
+.hero__list {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero__subTitle {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 112%;
+  text-align: center;
+  color: #000;
+}
+
+.hero__imgTitle {
+  margin-top: 25px;
+}
+
+.hero__text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 122%;
+  text-align: center;
+  color: #6f2cff;
+  margin-top: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.market {
+  background-color: #F5F5F5;
+}
+
+.market__block {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.market__name {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 112%;
+  text-align: center;
+  color: #000;
+}
+
+.market__text {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+  text-align: center;
+  color: #000;
+}
+
+.market__content {
+  margin-top: 43px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.market__items {
+  padding: 32px 53px 25px 32px;
+  border-radius: 8px 10px 10px 8px;
+  width: 492px;
+  height: 199px;
+  background-color: #17002e;
+  margin-bottom: 30px;
+}
+
+.market__titileOne {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 139%;
+  color: #f5f5f5;
+}
+.market__titileOne::before {
+  content: " ";
+  display: inline-block;
+  width: 54px;
+  height: 51px;
+  margin-right: 23px;
+  background-repeat: no-repeat;
+  background-image: url("../img/cosmetcs.svg");
+  background-position: left;
+}
+
+.market__titileTwo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 139%;
+  color: #f5f5f5;
+}
+.market__titileTwo::before {
+  content: " ";
+  display: inline-block;
+  width: 54px;
+  height: 51px;
+  margin-right: 23px;
+  background-repeat: no-repeat;
+  background-image: url("../img/luxury.svg");
+  background-position: left;
+}
+
+.market__titileThree {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 139%;
+  color: #f5f5f5;
+}
+.market__titileThree::before {
+  content: " ";
+  display: inline-block;
+  width: 54px;
+  height: 51px;
+  margin-right: 23px;
+  background-repeat: no-repeat;
+  background-image: url("../img/travel.svg");
+  background-position: left;
+}
+
+.market__titileFour {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 139%;
+  color: #f5f5f5;
+}
+.market__titileFour::before {
+  content: " ";
+  display: inline-block;
+  width: 54px;
+  height: 51px;
+  margin-right: 23px;
+  background-repeat: no-repeat;
+  background-image: url("../img/fashion.svg");
+  background-position: left;
+}
+
+.market__titileFife {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 139%;
+  color: #f5f5f5;
+}
+.market__titileFife::before {
+  content: " ";
+  display: inline-block;
+  width: 54px;
+  height: 51px;
+  margin-right: 23px;
+  background-repeat: no-repeat;
+  background-image: url("../img/airlanes.svg");
+  background-position: left;
+}
+
+.market__titileSix {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 139%;
+  color: #f5f5f5;
+}
+.market__titileSix::before {
+  content: " ";
+  display: inline-block;
+  width: 54px;
+  height: 51px;
+  margin-right: 23px;
+  background-repeat: no-repeat;
+  background-image: url("../../img/betting.svg");
+  background-position: left;
+}
+
+.market__textName {
+  margin-top: 11px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 147%;
+  color: #f5f5f5;
+}
+
+.market__words {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 15px;
+  width: 350px;
+  margin-right: 50px;
+  line-height: 147%;
+  color: #f5f5f5;
+}
+.market__words::after {
+  content: " ";
+  display: inline-block;
+  width: 384px;
+  height: 2px;
+  background-repeat: no-repeat;
+  background-image: url("../img/line.svg");
+  background-position: bottom;
+}/*# sourceMappingURL=main.css.map */

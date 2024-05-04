@@ -1,0 +1,58 @@
+.header{
+    background-color: #F5F5F5;
+    padding-bottom: 97px;
+}
+
+.header__box{
+    padding-top: 96px;
+}
+
+.header__title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 112%;
+    margin-top: 28px;
+    text-align: center;
+    color: #000;
+}
+
+.header__text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 200%;
+    text-align: center;
+    color: #000;
+}
+
+.header__img{
+    padding-top: 66px;
+    margin-bottom: 70px;
+}
+
+.header__btn{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+.header__productBtn{
+    padding: 13px 45px 14px 45px;
+    background-color:#6f2cff;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.header__bookBtn{
+    padding: 13px 45px 14px 45px;
+    background-color: #fff;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    text-align: center;
+    color: #6f2cff;
+}
